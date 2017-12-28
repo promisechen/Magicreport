@@ -1,26 +1,28 @@
+
+```   
 /*
 ********************************************************************************
 *                                                                              *
-*                         word pdf html ±¨±íÍ³Ò»½Ó¿Ú                           *
+*                         word pdf html æŠ¥è¡¨ç»Ÿä¸€æ¥å£                           *
 *                                                                              *
 ********************************************************************************
 *
-* °æÈ¨ÉùÃ÷:  Copyright(c) 2000-2010 PROMISE Networks.All Right Reserved
+* ç‰ˆæƒå£°æ˜:  Copyright(c) 2000-2010 PROMISE Networks.All Right Reserved
 *
-* ÎÄ¼şÁĞ±í:  ALL
+* æ–‡ä»¶åˆ—è¡¨:  ALL
 *
-* Éù    Ã÷:  ÈÎºÎÈË¶¼¿ÉËæÒâ´«²¥ĞŞ¸Ä£¬ĞŞ¸ÄºóÇë½«ĞŞ¸Ä²¿·Ö·¢ÖÁchenlx10@163.com,ÈÎºÎ
-             ÎÊÌâ¶¼¿ÉÓëchenlx10@163.comÁªÏµ¡£Î´ÉêÇëÍøÖ·£ºwww.frdog.org
+* å£°    æ˜:  ä»»ä½•äººéƒ½å¯éšæ„ä¼ æ’­ä¿®æ”¹ï¼Œä¿®æ”¹åè¯·å°†ä¿®æ”¹éƒ¨åˆ†å‘è‡³chenlx10@163.com,ä»»ä½•
+             é—®é¢˜éƒ½å¯ä¸chenlx10@163.comè”ç³»ã€‚æœªç”³è¯·ç½‘å€ï¼šwww.frdog.org
 *
-* ×÷    Õß:   ³ÂÁîÏé
+* ä½œ    è€…:   é™ˆä»¤ç¥¥
 *
-* °æ    ±¾:   v1.0
+* ç‰ˆ    æœ¬:   v1.0
 *
-* ÈÕÆÚ:     20100920
+* æ—¥æœŸ:     20100920
 *
 ********************************************************************************
 *
-* ÀúÊ·¼ÇÂ¼:
+* å†å²è®°å½•:
 *
 *         v1.0 20100920 edited by MagicPromise
 *
@@ -37,7 +39,7 @@ public class report_test {
 	
 	public static void main(String[] args)
 	{
-		String msg = "    ¹¥»÷Õß\n¿ÉÒÔÔ¶³Ì´´½¨¡¢ĞŞ¸Ä¡¢É¾³ıÎÄ¼ş£»¿ÉÒÔÈÎÒâ¶ÁÈ¡ÎÄ¼şÄ¿Â¼£»¿ÉÒÔ»ñµÃÓÃ»§Ãû¡¢¿ÚÁîµÈÃô¸ĞĞÅÏ¢£¬Ç±ÔÚ¿ÉÄÜµ¼ÖÂ¸ß·çÏÕµÄÂ©¶´";
+		String msg = "    æ”»å‡»è€…\nå¯ä»¥è¿œç¨‹åˆ›å»ºã€ä¿®æ”¹ã€åˆ é™¤æ–‡ä»¶ï¼›å¯ä»¥ä»»æ„è¯»å–æ–‡ä»¶ç›®å½•ï¼›å¯ä»¥è·å¾—ç”¨æˆ·åã€å£ä»¤ç­‰æ•æ„Ÿä¿¡æ¯ï¼Œæ½œåœ¨å¯èƒ½å¯¼è‡´é«˜é£é™©çš„æ¼æ´";
 		write_doc ss = new write_doc()
 		;
 		ss.write("e:\\cc.doc");
@@ -58,45 +60,45 @@ public class report_test {
 			
 		//	NPromise report = PromiseNN.set_report( "e:\\d4.doc");
 		//	NPromise report = PromiseNN.set_report( "e:\\report\\task_web\\test1.html");
-			report.set_chapter("ÖĞ»ª", 1);//Ğ´ÕÂ½Ú 
-			report.set_chapter("ÖĞ»ª", 2);//Ğ´ÕÂ½Ú  
-			report.set_chapter("ÖĞ»ª", 3);         
-			report.set_chapter("ÖĞ»ª", 3);  
-			report.set_chapter("ÖĞ»ª1", 3); 
-		 	report.set_chapter("ÖĞ»ª", 4);
-			report.set_chapter("ÖĞ»ª", 5);
-		 	report.set_chapter("ÖĞ»ª", 6);
-		 	report.write_av("ÖĞ»ª");//Ğ´¶ÎÂäÄÚÈİ
-		 	report.write_av("");//Ğ´¶ÎÂäÄÚÈİ
+			report.set_chapter("ä¸­å", 1);//å†™ç« èŠ‚ 
+			report.set_chapter("ä¸­å", 2);//å†™ç« èŠ‚  
+			report.set_chapter("ä¸­å", 3);         
+			report.set_chapter("ä¸­å", 3);  
+			report.set_chapter("ä¸­å1", 3); 
+		 	report.set_chapter("ä¸­å", 4);
+			report.set_chapter("ä¸­å", 5);
+		 	report.set_chapter("ä¸­å", 6);
+		 	report.write_av("ä¸­å");//å†™æ®µè½å†…å®¹
+		 	report.write_av("");//å†™æ®µè½å†…å®¹
 		 	
 			PromiseData data = new PromiseData();
 			 
-			String tempStr[] = new String[] { "ÀàĞÍ", "Â©¶´×ÜÊı", "¸ß", "ÖĞ", "ĞÅÏ¢ ",
-					"µÍ·çÏÕ " };
+			String tempStr[] = new String[] { "ç±»å‹", "æ¼æ´æ€»æ•°", "é«˜", "ä¸­", "ä¿¡æ¯ ",
+					"ä½é£é™© " };
 			String colorStr[] = new String[] {"true","true","true","true","true","true"};
 			Integer[] Align = new Integer[] {0,0,0,0,0,0};
 			Integer[] Colspan = new Integer[] {1,1,0,0,0,1};
 			
 			data.put(tempStr,colorStr,Align,Colspan);	
-			String tempStr1[] = new String[] { "ftp²âÊÔ", "1", "2", "3", "4 ",
+			String tempStr1[] = new String[] { "ftpæµ‹è¯•", "1", "2", "3", "4 ",
 					"5  "};	 
 			data.put(tempStr1,null,null,null);
-			 tempStr1 = new String[] { "snmp²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "snmpæµ‹è¯•", "1", "2", "3", "4 ",
 					"5  " }; 
 			data.put(tempStr1);
-			 tempStr1 = new String[] { "stmp²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "stmpæµ‹è¯•", "1", "2", "3", "4 ",
 				"5  " }; 
 			data.put(tempStr1);
-			 tempStr1 = new String[] { "dns²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "dnsæµ‹è¯•", "1", "2", "3", "4 ",
 				"5  " }; 
 			data.put(tempStr1);
-			 tempStr1 = new String[] { "pop3²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "pop3æµ‹è¯•", "1", "2", "3", "4 ",
 				"5  " }; 
 			data.put(tempStr1);
-			 tempStr1 = new String[] { "qq²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "qqæµ‹è¯•", "1", "2", "3", "4 ",
 				"5  " }; 
 			data.put(tempStr1);
-			 tempStr1 = new String[] { "msn²âÊÔ", "1", "2", "3", "4 ",
+			 tempStr1 = new String[] { "msnæµ‹è¯•", "1", "2", "3", "4 ",
 				"5  " }; 
 			 data.put(tempStr1);	
 		 	report.write_av(data,null,true);
@@ -117,3 +119,4 @@ public class report_test {
 
 	}
 }
+```   
